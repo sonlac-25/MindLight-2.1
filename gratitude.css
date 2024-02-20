@@ -1,0 +1,194 @@
+#header {
+    text-align: center;
+    position: fixed;
+    background-color: #DFC5FE;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    border-bottom: solid;
+    border-width: 2px;
+}
+
+#footer {
+    background-color: lightcyan;
+    height: 200px;
+    float: left;
+    width: 100%;
+    border: solid;
+    border-width: 2px;
+    
+    margin-top: 10%;
+
+}
+
+#login {
+    margin-top: 3%;
+    padding: 2%;
+    background-color: lightcyan;
+    height: 200px;
+    border: solid;
+    float:left;
+    width: 94%;
+    border-width: 2px;
+    text-align: center;
+}
+#info, #lights {
+    float: left;
+    padding: 0.7%;
+    margin: 0.7%;
+    border-style: solid;
+    border-width: .5%;
+    height: 800px;
+    width: 45%;
+
+}
+#history {
+    float: left;
+    padding: 0.7%;
+    margin: 0.7%;
+    border-style: solid;
+    border-width: .5%;
+    height: 800px;
+    width: 60%;
+    background-color: lightgray;
+
+}
+#contact {
+    float: left;
+    padding: 0.7%;
+    margin: 0.7%;
+    border-style: solid;
+    border-width: .5%;
+    height: 400px;
+    width: 97%;
+    background-color: lightgray;
+
+
+}
+#greenJournal {
+    height: 800px;
+    width: 60%;
+    padding: 0.7%;
+    margin: 0.7%;
+    border-style: solid;
+    border-width: .5%;
+    float: left;
+    background-color: #8fa146;
+
+}
+
+#yellowJournal {
+    height: 800px;
+    width: 60%;
+    padding: 0.7%;
+    margin: 0.7%;
+    border-style: solid;
+    border-width: .5%;
+    float: left;
+    background-color: #FDFD96;
+
+}
+#redJournal {
+    height: 800px;
+    width: 60%;
+    padding: 0.7%;
+    margin: 0.7%;
+    border-style: solid;
+    border-width: .5%;
+    float: left;
+    background-color: lightcoral;
+}
+
+#feed {
+    text-align: center;
+    background-color:#87CEFA;
+    border-color: blue;
+}
+#info{
+    background-color: #8fa146;
+    border-color: green;
+}
+
+#lights {
+    background-color: grey;
+    border-color: black;
+    text-align: center;
+}
+
+#greeninfo {
+    background-color: green;
+    border-radius: 5px;
+    padding: 2px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+#redinfo {
+    background-color: red;
+    border-radius: 5px;
+    padding: 2px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+#yellowinfo {
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 2px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+.light {
+    border-radius: 100%;
+    border: none;
+    text-align: center;
+    width: 50%;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;}
+
+.green {
+    background-color: green;
+}
+
+.green:hover {
+    background-color: #8fa146;
+}
+
+.yellow {
+    background-color: yellow;
+}
+.yellow:hover {
+    background-color: #FDFD96;
+}
+
+.red {
+    background-color: red;
+
+}
+.red:hover {
+    background-color: lightcoral
+}
+
+img {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#feelings, #future {
+ height: 200px;
+ width: 80%;
+}
+
+#footera {
+    margin: 5%;
+    text-decoration:none;
+    color: blue;
+    border-width: 1px;
+    border-radius: 10px;
+    border: solid black;
+    background-color:#DFC5FE;
+    padding: 2px;
+}
+
+
+
