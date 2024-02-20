@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Recommended meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        <!-- PyScript CSS -->
+        <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+        <!-- CSS for examples -->
+        <link rel="stylesheet" href="gratitude.css">
+
+        <!-- This script tag bootstraps PyScript -->
+        <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+
+       
+        <title>MindLight Login</title>
+
+    </head>
+    <body>
+        <div id="header">
+            <h1>MindLight 2.0</h1>
+        </div><br/><br/><br/>
+        <div id="login">
+        <script type="py" src="./main.py" config="./pyscript.toml"></script>
+        <form>
+            <label>Username:</label>
+            <input type="text" id="user"><br><br>
+            <label>Password:</label>
+            <input type="text" id="password"><br><br>
+            
+            <input type="submit" value="Log In" py-click="testUser">
+            <a href = "createAccount.html"><input type="submit" value="Create Account"></a>
+            <label id="label"></label>
+        
+        </form>
+        </div>
+        
+
+    </body>
+
+
+</html>
