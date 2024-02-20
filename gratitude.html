@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <title>Gratitude Journalling</title>
+    <link rel="stylesheet" type="text/css" href="gratitude.css"/>
+    <script src="gratitude.js"></script>
+</head>
+
+<body onload="checkStorage()">
+    
+    <div id="header">
+        <h1>Light Inside</h1>
+    </div>
+    <div id="feed"><!--Same across all pages-->
+        <br/><br/><br/><!--Moves text below anchored top-->
+        <h1>Feed</h1>
+        <img id ="Pets" src="Pets/Pets1.jpg" height = "23%"><br/><!--Image 1-->
+        <img id ="Cute" src="Cute/Cute1.jpg" height = "23%"><br/><!--Image 2-->
+        <!--Remember to add these categories-->
+        <button onclick="findBoth('Pets', 'Cute')">Reload</button><!--Will call random images for both sets from the image folders provided-->
+
+    </div>
+    <div id="info">
+        <br/><br/><br/>
+        <h1>Information</h1><!--Explaination system (all hard-coding)-->
+        <h2>The Light System</h2>
+        <div id="redinfo">
+            <h3>Red</h3>
+            <p>So today didn’t go well at all... what went wrong? Writing out your problems can be helpful when trying to prioritize how to deal with them.</p>
+        </div>
+        <div id="yellowinfo">
+            <h3>Yellow</h3>
+            <p>Maybe today wasn’t great or wasn’t horrible... do you want to talk about it?</p>
+        </div>
+        <div id="greeninfo">
+            <h3>Green</h3>
+            <p>Something good happened today! Tell us about it!</p>
+        </div>
+
+    </div>
+    <div id="lights">
+        <br/><br/><br/><!--Traffic light buttons-->
+        <a href="redlight.html"><button id="redlight" class="light red"></button><br/></a><!--Acts as links to individual pages-->
+        <a href="yellowlight.html"> <button id="yellowlight" class="light yellow"></button><br/></a>
+        <a href="greenlight.html"><button id="greenlight" class="light green"></button></a>
+    </div>
+    <div id="footer"><br/><br/> <!--This section is the same across all pages-->
+        <a id="footera" href="gratitude.html">Home</a><br/><br/> <!--Home Page-->
+        <a id="footera" href="contactUs.html">Contact Us</a><br/><br/><!--Contact Page-->
+        <a id="footera" href="history.html">History</a><br/><br/><!--History Page-->
+        <a id="footera" href="gratitude.html" onclick="clearStorage()">Log Out</a><br/><br/> <!--Deletes local storage in name section + returns user to home page-->
+    </div>
+</body>
+
+</html>
+
+<!--
+    Image links:
+    Pets1: https://www.verywellmind.com/stress-relieving-benefits-of-watching-cute-animal-videos-4150074
+    Pets2: https://www.goodhousekeeping.com/life/pets/g4531/cutest-dog-breeds/
+    Pets3: https://theconversation.com/have-an-instagram-account-for-your-pet-love-sharing-funny-animal-videos-youre-part-of-the-cute-economy-173311
+    Pets4: https://www.countryliving.com/life/kids-pets/g2659/baby-animal-photos/
+    https://www.photopills.com/articles/sunrise-photography-guide
+    https://www.itakeyou.co.uk/fun-and-cute-stitch-wallpapers-3/
+    https://www.istockphoto.com/photos/cute
+    https://stock.adobe.com/search?k=magic+book
+
+
+-->

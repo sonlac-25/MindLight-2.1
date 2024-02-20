@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>Gratitude Journalling</title>
+    <link rel="stylesheet" type="text/css" href="gratitude.css"/>
+    <script src="gratitude.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <h1>Light Inside</h1>
+    </div><br/><br/><br/>
+    <div id="feed">
+        <br/><br/><br/>
+        <h1>Feed</h1>
+        <img id ="Pets" src="Pets/Pets1.jpg" height = "23%"><br/>
+        <img id ="Cute" src="Cute/Cute1.jpg" height = "23%"><br/>
+        <!--Remember to add these categories-->
+        <button onclick="findBoth('Pets', 'Cute')">Reload</button>
+        
+
+    </div>
+    <div id="redJournal">
+            <h1>Red Light</h1>
+            <p>Time to stop! Can you try to explain why you don't feel great?</p>
+            <textarea id = "feelings"></textarea>
+            <p>What can you do to brake and come back to the situation with a fresh point of view?</p>
+            <textarea id = "future"></textarea><br/><br/>
+            <a href="gratitude.html"><button onclick="addToHistory('Red')">Submit</button></a>
+    </div>
+    <div id="footer"><br/><br/>
+        <a id="footera" href="gratitude.html">Home</a><br/><br/>
+        <a id="footera" href="contactUs.html">Contact Us</a><br/><br/>
+        <a id="footera" href="history.html">History</a><br/><br/>
+        <a id="footera" href="gratitude.html" onclick="clearStorage()">Log Out</a><br/><br/>
+    </div>
+</body>
+
+</html>
